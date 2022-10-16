@@ -13,10 +13,19 @@
 }
 .hit{
 text-align: center ;
-    margin: 10%;
+    
 }
 
 .send{
 
 margin-top: 6%;
 }
+
+.site_name{
+    font-size: 2rem;
+}
+
+hr {
+   	margin-bottom: 10%;
+   }
+

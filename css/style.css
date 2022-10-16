@@ -77,3 +77,7 @@ label.error {
   font-weight: bold;
   font-size: 12px;
   color: #000; }
+
+.site_name{
+    font-size: 2rem;
+}

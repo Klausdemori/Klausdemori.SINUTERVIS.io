@@ -1,11 +1,19 @@
 .fuuter{
-  background-color:#CD6DF5;
+  background-color:#7F24A6;
 
   width: 100vh;
   
 }
+.galleri1{
+  background-color:#7F24A6;
+
+  color: #fff;
+
+  padding: 10%;
+  
+}
 .row.text-center.features {
-  background-color:#CD6DF5;
+  background-color:#7F24A6;
   height: 60px;
   width: 100%;
   --bs-gutter-x: none;
@@ -16,12 +24,16 @@
 }
 .btn.btn-primary.btn-lg.px-4.me-md-2{
  
-  background-color: #7F24A6;
-  --bs-btn-border-color: #7F24A6;
+  background-color: #BDF525;
+  --bs-btn-border-color: ##BDF525;
+  color: #B625F5;
+  font-size: 1.5rem;
 }
 .btn.btn-primary.bottonn.rounded-0.py-2.px-2{
-  background-color: #7F24A6;
-  --bs-btn-border-color: #7F24A6;
+  background-color: #BDF525;
+  --bs-btn-border-color: #BDF525;
+  color: #B625F5;
+  font-size: 1.5rem;
 }
 .center-block {
   display: block;

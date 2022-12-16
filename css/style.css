@@ -1,3 +1,71 @@
+.fuuter{
+  background-color:#CD6DF5;
+
+  width: 100vh;
+  
+}
+.row.text-center.features {
+  background-color:#CD6DF5;
+  height: 60px;
+  
+}
+.first_block{
+ margin: 10%;
+}
+.btn.btn-primary.btn-lg.px-4.me-md-2{
+ 
+  background-color: #7F24A6;
+  --bs-btn-border-color: #7F24A6;
+}
+.btn.btn-primary.bottonn.rounded-0.py-2.px-2{
+  background-color: #7F24A6;
+  --bs-btn-border-color: #7F24A6;
+}
+.center-block {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.cat_hed{
+  margin: 5%;
+}
+.big{
+  font-size: 1.5rem;
+  font-weight: 200;
+}
+.text_block {
+  margin-top: 10%;
+}
+.row.featurette {
+  margin: 10%;
+}
+.container-fluid.featurette {
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+.row.galleri {
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+.fuuter{
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+.content.form {
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+.bottonn{
+  width: 100%;
+}
+.img-fluid.mas {
+  margin-top: -5%;
+  max-width: 100%;
+  height: auto;
+  border-radius: 50%;
+  
+}
 body {
   background-color: #fff;
   color: #999;
@@ -6,10 +74,12 @@ p {
   font-family: 'Lora', serif;
 }
 
-h1, h2, h3, h4, h5, h6,
-.h1, .h2, .h3, .h4, .h5, .h6 {
+h1
+   {
   font-family: 'Roboto', sans-serif;
-  color: #000; }
+  color: #000;
+  /*text-shadow: 2px 2px 2px #83647e;*/
+ }
 
 a {
   -webkit-transition: .3s all ease;
@@ -21,8 +91,8 @@ a {
 .text-black {
   color: #000; }
 
-.content {
-  padding: 7rem 0; }
+/*.content {
+  padding: 7rem 0; }*/
 
 h2 {
   font-size: 3.5rem;
@@ -51,7 +121,7 @@ h3 {
 .btn:active, .btn:focus {
   outline: none;
   -webkit-box-shadow: none;
-  box-shadow: none; }
+  box-shadow: nohne; }
 
 label.error {
   font-size: 12px;

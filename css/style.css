@@ -7,6 +7,8 @@
 .row.text-center.features {
   background-color:#CD6DF5;
   height: 60px;
+  width: 100%;
+  --bs-gutter-x: none;
   
 }
 .first_block{

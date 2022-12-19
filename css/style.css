@@ -1,3 +1,4 @@
+
 .fuuter{
   background-color:#7F24A6;
 
@@ -7,6 +8,7 @@
 .col-md-4.col-sm-4.col-ld-4.masge{
   
   margin-top: 5%;
+  margin-bottom: 3%;
   
 }
 .galleri1{
@@ -14,15 +16,17 @@
   height: 100%;
   color: #fff;
 
-  margin-top: 10%;
+  
   padding-top: 5%;
   padding-bottom: 5px;
   padding-left: 6%;
 }
 .row.text-center.features {
   background-color:#7F24A6;
-  height: 60px;
-  width: 100%;
+  height: 70px;
+  
+  padding-top: 0.5%;
+ 
   --bs-gutter-x: none;
   
 }
@@ -30,13 +34,20 @@
  margin: 10%;
 }
 .btn.btn-primary.btn-lg.px-4.me-md-2{
- 
+  margin-top: 3%;
+  font-family: 'Roboto', sans-serif;
   background-color: #BDF525;
   --bs-btn-border-color: ##BDF525;
   color: #7D08AF;
   font-size: 1.5rem;
 }
+.button{
+ 
+  font-size: 1.25rem;
+  
+}
 .btn.btn-primary.bottonn.rounded-0.py-2.px-2{
+  font-family: 'Roboto', sans-serif;
   background-color: #BDF525;
   --bs-btn-border-color: #BDF525;
   color: #7D08AF;
@@ -49,7 +60,14 @@
 }
 
 .cat_hed{
-  margin: 5%;
+  margin-left: -10%;
+  
+  padding-left: -10%;
+  padding-top: 0.1%;
+  padding-bottom: 0.1%;
+  width: 123%;
+  background-color: #a12ed3;
+  color: #fff;
 }
 .big{
   font-size: 1.5rem;
@@ -58,8 +76,11 @@
 .text_block {
   margin-top: 10%;
 }
-.row.featurette {
+/*.row.featurette {
   margin: 10%;
+}*/
+.featurette-divider.fd1{
+  margin-top: 5%;
 }
 .container-fluid.featurette {
   margin-top: 5%;
@@ -74,7 +95,7 @@
   margin-bottom: 10%;
 }
 .content.form {
-  margin-top: 5%;
+  margin-top: 3%;
   margin-bottom: 5%;
 }
 .bottonn{
@@ -84,7 +105,8 @@
   margin-top: -5%;
   max-width: 100%;
   height: auto;
-  border-radius: 50%;
+  /*border-radius: 50%;*/
+  clip-path: polygon(25% 0%, 100% 0, 75% 100%, 0% 100%);
   
 }
 
@@ -100,7 +122,7 @@ p {
 h1
    {
   font-family: 'Roboto', sans-serif;
-  color: #000;
+  color: rgb(255, 255, 255);
   /*text-shadow: 2px 2px 2px #83647e;*/
  }
 
@@ -175,4 +197,34 @@ label.error {
 
 .site_name{
     font-size: 2rem;
+}
+div.col-md-8.col-sm-8.col-ld-8.text_block{
+  margin-top: 5%;
+}
+div.col-md-8.col-sm-8.col-ld-8.text_block_2.order-md-2{
+  margin-top: 5%;
+}
+#myBtn {
+  
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: #a12ed3;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  
+}
+
+#myBtn:hover {
+  background-color: #a12ed3;
+}
+.fm1{
+
+ margin-bottom: 5%;
 }

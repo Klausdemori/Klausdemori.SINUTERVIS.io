@@ -27,6 +27,10 @@
     <title>Sinutervis- KERGE KEHA JA HEA TUJU </title>
   </head>
 <body>
+  
+<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+
+
 
   <!--<nav class="navbar bg-light">
     <div class="container-fluid">
@@ -37,17 +41,16 @@
       </a>
     </div>
   </nav>-->
-  <div class='row text-center features' >
-  <div class="col-1 col-sm-1 col-lg-1 ">   
-
-  </div>
-  <div class="col-10 col-sm-10 col-lg-10"> 
-    <img src="images/logo6.png" alt="Logo of our company sinutervis" width="220" height="53" >  
-  </div>
-  <div class="col-1 col-sm-1 col-lg-1 ">   
-  </div>
+  <div class='row text-center features'>
+    <div class="col-1 col-sm-1 col-lg-1 ">   
+    </div>
+    <div class="col-10 col-sm-10 col-lg-10"> 
+      <img src="images/logo8.png" alt="Logo of our company sinutervis"  height="30%" >  
+    </div>
+    <div class="col-1 col-sm-1 col-lg-1 ">   
+    </div>
 </div>
-  <section class="first_block">
+   <!--<section class="first_block">
 
     <div class="container col-xxl-8 px-4 py-5">
       <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
@@ -63,7 +66,50 @@
           </div>
         </div>
       </div>
+    </div>-->
+    
+
+<div class="position-relative overflow-hidden">
+	<div class="d-flex min-vh-100" lc-helper="video-bg">
+		<video style="z-index:1;object-fit: cover; object-position: 50% 50%;" class="position-absolute w-100 min-vh-100" autoplay="" preload="" muted="" loop="" playsinline="">
+			<!-- adjust object-position to tweak cropping on mobile -->
+			<!--<img src="images/massage_vi.gif" alt="this slowpoke moves" width="1024" />-->
+      <source src="images/video.mp4" type="video/mp4">
+		</video>
+		<div style="z-index:2" class="align-self-center text-center text-light col-md-8 offset-md-2">
+			<div class="lc-block mb-4">
+				<div editable="rich">
+					<h1 class="display-1 fw-bolder">Massage Salong</h1>
+				</div>
+			</div>
+
+			<div class="lc-block">
+				<div editable="rich">
+					<p class="lead">With us you will get a wonderful experience that will take away your worries </p>
+
+					<p class="lead">and soothe your soul and give lightness to your body.
+
+					</p>
+
+				</div>
+			</div>
+    <div>
+      <a href="#middle"><button type="button" class="btn btn-primary btn-lg px-4 me-md-2">Book a Massage</button></a>
     </div>
+			<!--<div class="lc-block">
+				<svg onclick="this.closest('section').nextElementSibling.scrollIntoView({ behavior: 'smooth'  });" width="4em" height="4em" viewBox="0 0 16 16" lc-helper="svg-icon" fill="currentColor" xmlns="http://www.w3.org/2000/svg" style="">
+					<path fill-rule="evenodd" d="M8 15A7 7 0 1 0 8 1a7 7 0 0 0 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"></path>
+					<path fill-rule="evenodd" d="M8 4a.5.5 0 0 1 .5.5v5.793l2.146-2.147a.5.5 0 0 1 .708.708l-3 3a.5.5 0 0 1-.708 0l-3-3a.5.5 0 1 1 .708-.708L7.5 10.293V4.5A.5.5 0 0 1 8 4z"></path>
+				</svg>-->
+
+				<!-- for Safari support only, remove if you want  -->
+				<script async="" src="https://unpkg.com/smoothscroll-polyfill/dist/smoothscroll.min.js"></script>
+
+			</div>
+		</div>
+	</div>
+</div>
+
 
 
     </section>
@@ -83,7 +129,7 @@
     
     
 
-    <hr class="featurette-divider">
+    <hr class="featurette-divider fd1">
       <div class="cat_hed">
         <h2 style="text-align: center;">Different Types of Massage</h2>
       </div>
@@ -147,18 +193,7 @@
 
     <!-- /END THE FEATURETTES -->
 
-    <hr class="featurette-divider ">
-       <div class="cat_hed">
-          <h2 style="text-align: center;">Our location and service area</h2>
-       </div>
-    <hr class="featurette-divider">
-
-      <!--Google map-->
-  <div class="container-fluid featurette">
-    <div class="map-responsive">
-    <iframe src="https://www.google.com/maps/embed/v1/place?key=AIzaSyA0s1a7phLN0iaD6-UE7m4qP-z21pH0eSc&q=Tallinn" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
-</div>
-</div>
+ 
 
 <!--Google Maps-->
 
@@ -210,13 +245,13 @@
   <div class="col-lg-4 col-md-4 col-sm-4">
     <img
       src="images/1_gal.jpg"
-      class="w-100 shadow-1-strong rounded mb-4"
+      class="w-100 shadow-1-strong  mb-4"
       alt="Boat on Calm Water"
     />
 
     <img
       src="images/2_gal.jpg"
-      class="w-100 shadow-1-strong rounded mb-4"
+      class="w-100 shadow-1-strong  mb-4"
       alt="Wintry Mountain Landscape"
     />
 
@@ -225,13 +260,13 @@
   <div class="col-lg-4 col-md-4 col-sm-4">
     <img
       src="images/3_gal.jpg"
-      class="w-100 shadow-1-strong rounded mb-4"
+      class="w-100 shadow-1-strong  mb-4"
       alt="Mountains in the Clouds"
     />
 
     <img
       src="images/4_gal.jpg"
-      class="w-100 shadow-1-strong rounded mb-4"
+      class="w-100 shadow-1-strong  mb-4"
       alt="Boat on Calm Water"
     />
   </div>
@@ -239,12 +274,12 @@
   <div class="col-lg-4 col-md-4 col-sm-4">
     <img
       src="images/5_gal.jpg"
-      class="w-100 shadow-1-strong rounded mb-4"
+      class="w-100 shadow-1-strong  mb-4"
       alt="Waves at Sea"
     />
     <img
     src="images/6_gal.jpg"
-    class="w-100 shadow-1-strong rounded mb-4"
+    class="w-100 shadow-1-strong  mb-4"
     alt="Yosemite National Park"
   />
 
@@ -289,6 +324,46 @@
 
       <div class="col-md-6">
         <form class="mb-5" method="post" id="contact_form" name="contactForm" action="contact-form-handler.php">
+          <!-- Footer -->
+              <div class="wrap-input100 input100-select bg1 ">
+                <div class="fm1">
+                  <label for="appt">Choose a time </label>
+                  <BR>
+                    <input type="time" id="appt" name="appt"
+                      min="09:00" max="18:00" required>
+
+                  <small>We are open 9am to 6pm.</small>
+                </div>
+              </div>
+
+                <div class="wrap-input100 input100-select bg1">
+                  <div class="fm1">
+                      <span class="label-input100">Choos place</span>
+                      <div>
+                      <select class="js-select2 select2-hidden-accessible" name="service" tabindex="-1" aria-hidden="true">
+                      <option>Salong</option>
+                      <option>Home visit</option>
+                  
+                      </select><small> Home visit the price is higher. </small>
+                      <div class="dropDownSelect2"></div>
+                      </div>
+                  </div>
+                </div>
+
+                <div class="wrap-input100 input100-select bg1">
+                  <div class="fm1">
+                    <span class="label-input100">Chose Massage</span>
+                    <div>
+                    <select class="js-select2 select2-hidden-accessible" name="service" tabindex="-1" aria-hidden="true">
+                    <option>Thai Massage</option>
+                    <option>Therepy Massage</option>
+                    <option>Swedish Massage</option>
+                    <option>Aroma Massage</option>
+                    </select><small> Aroma massage is perfect if it's your first time. </small>
+                    <div class="dropDownSelect2"></div>
+                    </div>
+                  </div>
+                </div>
 
          
 
@@ -319,40 +394,11 @@
               <textarea class="form-control" name="message" id="message" cols="30" rows="7" placeholder="If you have a health problem, describe it"></textarea>
             </div>
           </div>
-          <div class="wrap-input100 input100-select bg1">
-            <span class="label-input100">Needed Services *</span>
-            <div>
-            <select class="js-select2 select2-hidden-accessible" name="service" tabindex="-1" aria-hidden="true">
-            <option>Thai Massage</option>
-            <option>Therepy Massage</option>
-            <option>Swedish Massage</option>
-            <option>Aroma Massage</option>
-            </select><span class="select2 select2-container select2-container--default" dir="ltr" style="width: 189px;"><span class="selection"><span class="select2-selection select2-selection--single" role="combobox" aria-haspopup="true" aria-expanded="false" tabindex="0" aria-labelledby="select2-service-lq-container"><span class="select2-selection__rendered" id="select2-service-lq-container" title="Please chooses"></span><span class="select2-selection__arrow" role="presentation"><b role="presentation"></b></span></span></span><span class="dropdown-wrapper" aria-hidden="true"></span></span>
-            <div class="dropDownSelect2"></div>
-            </div>
-            </div>
-
-              <div class="wrap-input100 input100-select bg1">
-              <span class="label-input100">Choos place *</span>
-              <div>
-              <select class="js-select2 select2-hidden-accessible" name="service" tabindex="-1" aria-hidden="true">
-              <option>Salong</option>
-              <option>Home visit</option>
           
-              </select><span class="select2 select2-container select2-container--default" dir="ltr" style="width: 189px;"><span class="selection"><span class="select2-selection select2-selection--single" role="combobox" aria-haspopup="true" aria-expanded="false" tabindex="0" aria-labelledby="select2-service-lq-container"><span class="select2-selection__rendered" id="select2-service-lq-container" title="Please chooses">Please chooses</span><span class="select2-selection__arrow" role="presentation"><b role="presentation"></b></span></span></span><span class="dropdown-wrapper" aria-hidden="true"></span></span>
-              <div class="dropDownSelect2"></div>
-              </div>
-              </div>
 
-            <div class="wrap-input100 input100-select bg1">
-              <label for="appt">Choose a time for your meeting: *</label>
-              <BR>
-                 <input type="time" id="appt" name="appt"
-                  min="09:00" max="18:00" required>
-  
-              <small>Office hours are 9am to 6pm</small>
-            </div>
+            
 
+            
           
           
 
@@ -363,7 +409,7 @@
           
           <div class="row send">
             <div class="col-md-12">
-              <input type="submit"  value="Submit" class="btn btn-primary bottonn rounded-0 py-2 px-2">
+              <input type="submit"  value="Book a Massage " class="btn btn-primary bottonn rounded-0 py-2 px-2">
               <span class="submitting"></span>
             </div>
           </div>
@@ -388,30 +434,66 @@
 
 </div>
 
+          <hr class="featurette-divider ">
+          <div class="cat_hed">
+            <h2 style="text-align: center;">Our location and service area</h2>
+          </div>
+          <hr class="featurette-divider">
+
+          <!--Google map-->
+          <div class="container-fluid featurette">
+          <div class="map-responsive">
+          <iframe src="https://www.google.com/maps/embed/v1/place?key=AIzaSyA0s1a7phLN0iaD6-UE7m4qP-z21pH0eSc&q=Tallinn" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+          </div>
+          </div><div class=" galleri1">
+    
+            <h3 >Sinutervis</h3>
+            <h5>Massage Salong </h5> 
+            
+            
+              <p class="mb-5">Pamper your body with pleasant sensations and give your soul an unforgettable experience of relieving stress and anxiety.</p>
+        
+              <ul class="list-unstyled pl-md-5 mb-5">
+                <li >
+                  Estonia <br>34 Street Vabaduse, Tallinn,  
+                </li><br>
+                <li > +372 666 999333</li>
+                <li >info@sinutervis.com </li>
+              
+              
+            </ul>
+          </div>
+
 </div>
 <!-- Footer -->
-
+       
 
 </div>
-<div class=" galleri1">
-    
-    <h3 >Sinutervis</h3>
-    <h5>Massage Salong </h5> 
-    
-    
-      <p class="mb-5">Pamper your body with pleasant sensations and give your soul an unforgettable experience of relieving stress and anxiety.</p>
 
-      <ul class="list-unstyled pl-md-5 mb-5">
-        <li >
-          Estonia <br>34 Street Vabaduse, Tallinn,  
-        </li><br>
-        <li > +372 666 999333</li>
-        <li >info@sinutervis.com </li>
-      
-      
-    </ul>
-  </div>
 
+
+
+  <script>
+    // Get the button
+    let mybutton = document.getElementById("myBtn");
+    
+    // When the user scrolls down 20px from the top of the document, show the button
+    window.onscroll = function() {scrollFunction()};
+    
+    function scrollFunction() {
+      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        mybutton.style.display = "block";
+      } else {
+        mybutton.style.display = "none";
+      }
+    }
+    
+    // When the user clicks on the button, scroll to the top of the document
+    function topFunction() {
+      document.body.scrollTop = 0;
+      document.documentElement.scrollTop = 0;
+    }
+    </script>
 <!-- Bootstrap JS -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>

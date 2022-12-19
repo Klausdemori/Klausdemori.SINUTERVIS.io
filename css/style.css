@@ -59,16 +59,7 @@
   margin-right: auto;
 }
 
-.cat_hed{
-  margin-left: -10%;
-  margin-right: -10%;
-  padding-left: -10%;
-  padding-top: 0.1%;
-  padding-bottom: 0.1%;
-  
-  background-color: #a12ed3;
-  color: #fff;
-}
+
 .big{
   font-size: 1.5rem;
   font-weight: 200;

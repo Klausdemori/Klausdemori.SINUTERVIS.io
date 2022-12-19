@@ -21,11 +21,21 @@
   padding-bottom: 5px;
   padding-left: 6%;
 }
+.footer{
+  background-color:#7F24A6;
+  height: 100%;
+  color: #fff;
+  text-align: center;
+  
+  padding-top: 3%;
+  padding-bottom: 1%;
+ 
+}
 .row.text-center.features {
   background-color:#7F24A6;
-  height: 70px;
+  height: 110px;
   
-  padding-top: 0.5%;
+  padding-top: 1%;
  
   --bs-gutter-x: none;
   
@@ -223,7 +233,7 @@ div.col-md-8.col-sm-8.col-ld-8.text_block_2.order-md-2{
 }
 
 #myBtn:hover {
-  background-color: #a12ed3;
+  background-color: #c53dff;
 }
 .fm1{
 

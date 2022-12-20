@@ -54,6 +54,7 @@
  margin: 10%;
 }
 .btn.btn-primary.btn-lg.px-4.me-md-2{
+  border-radius:0px;
   margin-top: 3%;
   font-family: 'Roboto', sans-serif;
   background-color: #B625F5;

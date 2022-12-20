@@ -57,7 +57,7 @@
   border-radius:0px;
   margin-top: 3%;
   font-family: 'Roboto', sans-serif;
-  background-color: #B625F5;
+  background-color: #7EA808;
   --bs-btn-border-color: ##BDF525;
   color: #ffffff;
   font-size: 1.5rem;
@@ -69,7 +69,7 @@
 }
 .btn.btn-primary.bottonn.rounded-0.py-2.px-2{
   font-family: 'Roboto', sans-serif;
-  background-color: #B625F5;
+  background-color: #7EA808;
   --bs-btn-border-color: ##BDF525;
   color: #ffffff;
   font-size: 1.5rem;

@@ -56,9 +56,9 @@
 .btn.btn-primary.btn-lg.px-4.me-md-2{
   margin-top: 3%;
   font-family: 'Roboto', sans-serif;
-  background-color: #BDF525;
+  background-color: #B625F5;
   --bs-btn-border-color: ##BDF525;
-  color: #7D08AF;
+  color: #ffffff;
   font-size: 1.5rem;
 }
 .button{
@@ -68,9 +68,9 @@
 }
 .btn.btn-primary.bottonn.rounded-0.py-2.px-2{
   font-family: 'Roboto', sans-serif;
-  background-color: #BDF525;
-  --bs-btn-border-color: #BDF525;
-  color: #7D08AF;
+  background-color: #B625F5;
+  --bs-btn-border-color: ##BDF525;
+  color: #ffffff;
   font-size: 1.5rem;
 }
 .center-block {

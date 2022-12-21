@@ -1,5 +1,9 @@
-.reg-img{
-  margin-top:45.5%;
+#contact_form{
+background-color:#7f24a605;
+}
+
+.regimg{
+  margin-bottom:5%;
 }
 .fuuter{
   background-color:#7F24A6;
@@ -102,7 +106,7 @@
 }
 .row.galleri {
   margin-top: 5%;
-  margin-bottom: 5%;
+  margin-bottom: 3%;
 }
 .fuuter{
   margin-top: 10%;
@@ -110,7 +114,7 @@
 }
 .content.form {
   margin-top: 3%;
-  margin-bottom: 5%;
+ 
 }
 .bottonn{
   width: 100%;

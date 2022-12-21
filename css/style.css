@@ -60,12 +60,12 @@ background-color:#7f24a605;
  margin: 10%;
 }
 .btn.btn-primary.btn-lg.px-4.me-md-2{
-  border-radius:0px;
+  border-radius:44px;
   margin-top: 3%;
   font-family: 'Roboto', sans-serif;
-  background-color: #7EA808;
+  background-color: #fff367;
   --bs-btn-border-color: ##BDF525;
-  color: #ffffff;
+  color: #000000;
   font-size: 1.5rem;
 }
 .button{
@@ -73,11 +73,12 @@ background-color:#7f24a605;
   font-size: 1.25rem;
   
 }
-.btn.btn-primary.bottonn.rounded-0.py-2.px-2{
+.btn.btn-primary.bottonn.py-2.px-2{
+  border-radius: 44px;
   font-family: 'Roboto', sans-serif;
-  background-color: #7EA808;
+  background-color: #fff367;
   --bs-btn-border-color: ##BDF525;
-  color: #ffffff;
+  color: #000000;
   font-size: 1.5rem;
 }
 .center-block {
@@ -232,10 +233,11 @@ div.col-md-8.col-sm-8.col-ld-8.text_block_2.order-md-2{
   font-size: 18px;
   border: none;
   outline: none;
-  background-color: #a12ed3;
+  background-color: #a32ed3;
   color: white;
   cursor: pointer;
   padding: 15px;
+  border-radius: 100% 100% 0% 0%;
   
 }
 
